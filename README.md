@@ -8,7 +8,8 @@ https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-
   <img src="resources/Multiresolution_Learning_HTC.PNG"/>
 </div>
 
+
 ## Hybrid Transformer-CNN Architecture
 <div align="center">
-  <img src="resources/HTC_architecture.PNG"/>
+  <img src="resources/HTC_architecture.PNG", width=1000/>
 </div>
