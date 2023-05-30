@@ -1,8 +1,6 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this code, please cite it as below."
 authors:
-  - name: "MMPose Contributors"
-title: "OpenMMLab Pose Estimation Toolbox and Benchmark"
-date-released: 2020-08-31
-url: "https://github.com/open-mmlab/mmpose"
-license: Apache-2.0
+  - name: "Thanaporn Viriyasaranon, Serie Ma, and Jang-Hwan Choi"
+title: "Anatomical Landmark Detection Using a Multiresolution Learning Approach with a Hybrid Transformer-CNN Model"
+date-released: 2020-05-30
+url: "https://github.com/Multiresolution-Learning-based-Hybrid-Transformer-CNN-Model-for-Anatomical-Landmark-Detection"
