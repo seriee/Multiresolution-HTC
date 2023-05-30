@@ -3,7 +3,7 @@ Pytorch implementation of our Anatomical Landmark Detection Using a Multiresolut
 
 https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-Model-for-Anatomical-Landmark-Detection
 
-## Abstract:
+## Abstract
 Accurate localization of anatomical landmarks has a critical role in clinical diagnosis, treatment planning, and research. Most existing
 deep learning methods for anatomical landmark localization rely on heatmap regression-based learning, which generates label representations
 as 2D Gaussian distributions centered at the labeled coordinates of each of the landmarks and integrates them into a single spatial resolution
