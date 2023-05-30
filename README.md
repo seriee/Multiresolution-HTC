@@ -11,5 +11,5 @@ https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-
 
 ## Hybrid Transformer-CNN Architecture
 <div align="center">
-  <img src="resources/HTC_architecture.PNG", width=500/>
+  <img src="resources/HTC_architecture.PNG", width=700/>
 </div>
