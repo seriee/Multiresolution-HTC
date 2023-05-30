@@ -27,7 +27,7 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
 </div>
 
 ## Dataset
-We used public datasets from the papers below.
+We have used public datasets from the papers below.
 - Head XCAT dataset: Segars, W.P., Sturgeon, G., Mendonca, S., Grimes, J., Tsui, B.M.: 4d xcat phantom for multimodality imaging research. Medical physics 37(9), 4902–4915 (2010)
 - Hand X-ray dataset: Payer, C., ˇStern, D., Bischof, H., Urschler, M.: Integrating spatial configuration into heatmap regression based CNNs for landmark localization. Medical Image Analysis 54, 207–219 (2019)
 - ISBI2023 challenge dataset: Anwaar Khalid, M., Zulfiqar, K., Bashir, U., Shaheen, A., Iqbal, R., Rizwan, Z., Rizwan, G., Moazam Fraz, M.: Cepha29: Automatic cephalometric landmark detection challenge 2023. arXiv e-prints pp. arXiv–2212 (2022)
