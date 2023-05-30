@@ -23,7 +23,7 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
 
 ## Hybrid Transformer-CNN Architecture
 <div align="center">
-  <img src="resources/HTC_architecture.PNG", width=700/>
+  <img src="resources/HTC_architecture.PNG", width=600/>
 </div>
 
 ## Dataset
