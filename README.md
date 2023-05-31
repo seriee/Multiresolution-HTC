@@ -1,8 +1,6 @@
 
 **Pytorch implementation of our Anatomical Landmark Detection Using a Multiresolution Learning Approach with a Hybrid Transformer-CNN Model framework.
-**
-
-https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-Model-for-Anatomical-Landmark-Detection
+**https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-Model-for-Anatomical-Landmark-Detection
 
 ## Abstract
 Accurate localization of anatomical landmarks has a critical role in clinical diagnosis, treatment planning, and research. Most existing
