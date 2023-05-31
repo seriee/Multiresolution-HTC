@@ -32,36 +32,38 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
   - Hand X-ray dataset: Payer, C., ˇStern, D., Bischof, H., Urschler, M.: Integrating spatial configuration into heatmap regression based CNNs for landmark localization. Medical Image Analysis 54, 207–219 (2019)
   - ISBI2023 challenge dataset: Anwaar Khalid, M., Zulfiqar, K., Bashir, U., Shaheen, A., Iqbal, R., Rizwan, Z., Rizwan, G., Moazam Fraz, M.: Cepha29: Automatic cephalometric landmark detection challenge 2023. arXiv e-prints pp. arXiv–2212 (2022)
 - Input: .PNG images and JSON file
-- Output: 2D landmark coordinates
 
 ## Prerequesites
 - Python 3.7
 - MMpose 0.23
 
 ## Usage
-To train the HTC model with multiresolution learning approach, run the following command.
-```
-sh train.sh
-```
-The content of the code in the respective file(train.sh) will be:
-```
-CUDA_VISIBLE_DEVICES=gpu_ids PORT=PORT_NUM ./tools/dist_train.sh \
-config_file_path num_gpus
-```
+- Train
+  - To train the HTC model with multiresolution learning approach, run the following command.
+  ```
+  sh train.sh
+  ```
+  - The content of the code in the respective file(train.sh) will be:
+  ```
+  CUDA_VISIBLE_DEVICES=gpu_ids PORT=PORT_NUM ./tools/dist_train.sh \
+  config_file_path num_gpus
+  ```
 
-To test the trained HTC model, run the following command.
-```
-sh test.sh
-```
-The content of the code in the respective file(test.sh) will be:
-```
-CUDA_VISIBLE_DEVICES=gpu_id PORT=29504 ./tools/dist_test.sh config_file_path \
-    model_weight_path num_gpus \
-    # for evaluation of the Head XCAT dataset, use:
-    --eval 'MRE_h','MRE_std_h','SDR_2_h','SDR_2.5_h','SDR_3_h','SDR_4_h'
-    # for evaluation of ISBI2023 and Hand X-ray dataset, use:
-    # --eval 'MRE_i2','MRE_std_i2','SDR_2_i2','SDR_2.5_i2','SDR_3_i2','SDR_4_i2'
-```
+- Test
+  - To test the trained HTC model, run the following command.
+  ```
+  sh test.sh
+  ```
+  - The content of the code in the respective file(test.sh) will be:
+  ```
+  CUDA_VISIBLE_DEVICES=gpu_id PORT=29504 ./tools/dist_test.sh config_file_path \
+      model_weight_path num_gpus \
+      # for evaluation of the Head XCAT dataset, use:
+      --eval 'MRE_h','MRE_std_h','SDR_2_h','SDR_2.5_h','SDR_3_h','SDR_4_h'
+      # for evaluation of ISBI2023 and Hand X-ray dataset, use:
+      # --eval 'MRE_i2','MRE_std_i2','SDR_2_i2','SDR_2.5_i2','SDR_3_i2','SDR_4_i2'
+  ```
+  - Output: 2D landmark coordinates
 
 ## Citation 
-Citation is to be updated.
+If you find this code useful for your research, please kindly cite our paper. Citation of our paper will be updated.
