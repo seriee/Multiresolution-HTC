@@ -39,7 +39,7 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
 
 ## Usage
 - Train
-  - To train the HTC model with multiresolution learning approach, run the following command.
+  - To train our HTC model with multiresolution learning approach, run the following command.
   ```
   sh train.sh
   ```
@@ -63,7 +63,7 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
       # for evaluation of ISBI2023 and Hand X-ray dataset, use:
       # --eval 'MRE_i2','MRE_std_i2','SDR_2_i2','SDR_2.5_i2','SDR_3_i2','SDR_4_i2'
   ```
-  - Output: 2D landmark coordinates
+- Output: 2D landmark coordinates
 
 ## Citation 
 If you find this code useful for your research, please kindly cite our paper. Citation of our paper will be updated.
