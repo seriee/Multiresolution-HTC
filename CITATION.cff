@@ -1,6 +1,6 @@
 message: "(Citaion will be upated) If you use this code, please cite it as below."
 authors:
-  - name: ""
+  - name: "Thanaporn Viriyasaranon, Serie Ma, and Jang-Hwan Choi"
 title: "Anatomical Landmark Detection Using a Multiresolution Learning Approach with a Hybrid Transformer-CNN Model"
 date-released: 2020-05-30
 url: "https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-Model-for-Anatomical-Landmark-Detection"
