@@ -65,8 +65,6 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
   ```
 - Output: 2D landmark coordinates
 
-## Reference
-To be updated.
 
 ## Citation 
 If you find this code useful for your research, please kindly cite our paper. Citation of our paper will be updated.
