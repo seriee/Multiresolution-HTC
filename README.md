@@ -17,13 +17,13 @@ demonstrated that our approach outperforms state-of-the-art deep learning-based 
 
 ## Hybrid Transformer-CNN Model with Multiresolution Learning Approach
 <div align="center">
-  <img src="resources/Multiresolution_Learning_HTC.PNG"/>
+  <img src="resources/Multiresolution_learning_HTC.png"/>
 </div>
 
 
 ## Hybrid Transformer-CNN Architecture
 <div align="center">
-  <img src="resources/HTC_architecture.PNG", width=600/>
+  <img src="resources/Hybrid_Transformer_CNN.png", width=600/>
 </div>
 
 ## Dataset
