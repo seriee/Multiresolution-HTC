@@ -26,10 +26,10 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 
 ## Results
 <div align="center">
-  <img src="resources/Table1.png"/>
+  <img src="resources/Table1.PNG"/>
 </div>
 <div align="center">
-  <img src="resources/Table2.png"/>
+  <img src="resources/Table2.PNG"/>
 </div>
 
 ## Prerequesites
