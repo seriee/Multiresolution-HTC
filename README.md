@@ -40,7 +40,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 
 ## Usage of the code
 
-- **Train**
+- **Train the model**
   - To train our HTC model with a multiresolution learning approach, run **sh train.sh**:
   ```
   # sh train.sh
@@ -48,8 +48,8 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
   config_file_path num_gpus
   ```
 
-- **Test**
-  - To test the trained HTC model, run **sh test.sh**:
+- **Evaluation**
+  - To evaluate the trained HTC model, run **sh test.sh**:
   ```
   # sh test.sh
   CUDA_VISIBLE_DEVICES=gpu_id PORT=29504 ./tools/dist_test.sh config_file_path \
