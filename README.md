@@ -36,26 +36,20 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 - Python 3.7
 - MMpose 0.23
 
-## Usage
+## Usage of the code
 
 - **Train**
-  - To train our HTC model with a multiresolution learning approach, run the following command:
+  - To train our HTC model with a multiresolution learning approach, run **sh train.sh**:
   ```
-  sh train.sh
-  ```
-  - train.sh should include the following information:
-  ```
+  # sh train.sh
   CUDA_VISIBLE_DEVICES=gpu_ids PORT=PORT_NUM ./tools/dist_train.sh \
   config_file_path num_gpus
   ```
 
 - **Test**
-  - To test the trained HTC model, run the following command:
+  - To test the trained HTC model, run **sh test.sh**:
   ```
-  sh test.sh
-  ```
-  - test.sh should include the following information:
-  ```
+  # sh test.sh
   CUDA_VISIBLE_DEVICES=gpu_id PORT=29504 ./tools/dist_test.sh config_file_path \
       model_weight_path num_gpus \
       # For evaluation of the Head XCAT dataset, use:
@@ -64,8 +58,24 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
       # --eval 'MRE_i2','MRE_std_i2','SDR_2_i2','SDR_2.5_i2','SDR_3_i2','SDR_4_i2'
   ```
 
-- Input: .PNG images and JSON file
-- Output: 2D landmark coordinates
+- **Dataset format**
+  The dataset structure should be in the following structure:
+
+  ```
+  inputs: .PNG images and JSON file
+  └── <dataset name>
+      ├── 2D_images
+      |   ├── 001.png
+      │   ├── 002.png
+      │   ├── 003.png
+      │   ├── ...
+      |
+      └── JSON
+          ├── train.json
+          └── test.json
+  ```
+
+  Output: 2D landmark coordinates
 
 ## Citation 
 If you find this code useful for your research, please kindly cite our paper. The citation of our paper will be updated soon.
