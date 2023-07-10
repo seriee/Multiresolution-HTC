@@ -59,7 +59,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
   ```
 
 - **Dataset format**
-  The dataset structure should be in the following structure:
+  - The dataset structure should be in the following structure:
 
   ```
   inputs: .PNG images and JSON file
@@ -75,7 +75,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
           └── test.json
   ```
 
-  Output: 2D landmark coordinates
+  - Output: 2D landmark coordinates
 
 ## Citation 
 If you find this code useful for your research, please kindly cite our paper. The citation of our paper will be updated soon.
