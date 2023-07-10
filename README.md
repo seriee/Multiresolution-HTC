@@ -1,5 +1,7 @@
+# Anatomical Landmark Detection Using a Multiresolution Learning Approach with a Hybrid Transformer-CNN Model (MICCAI 2023)
 
-**Pytorch implementation of our Anatomical Landmark Detection Using a Multiresolution Learning Approach with a Hybrid Transformer-CNN Model framework.**
+
+**Official pytorch implementation of our Anatomical Landmark Detection Using a Multiresolution Learning Approach with a Hybrid Transformer-CNN Model framework.**
 
 https://github.com/seriee/Multiresolution-Learning-based-Hybrid-Transformer-CNN-Model-for-Anatomical-Landmark-Detection
 
