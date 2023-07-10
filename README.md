@@ -26,7 +26,10 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 
 ## Results
 <div align="center">
-  <img src="resources/Hybrid_Transformer_CNN.png", width=600/>
+  <img src="resources/Table1.png"/>
+</div>
+<div align="center">
+  <img src="resources/Table2.png"/>
 </div>
 
 ## Prerequesites
