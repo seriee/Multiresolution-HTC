@@ -15,7 +15,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 
 ## Hybrid Transformer-CNN (HTC) Architecture
 <div align="center">
-  <img src="resources/Hybrid_Transformer_CNN.png", width=600/>
+  <img src="resources/Hybrid_Transformer_CNN.png"/>
 </div>
 
 ## Dataset
@@ -23,15 +23,17 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
   - 4D XCAT Head CBCT dataset: Segars, W.P., Sturgeon, G., Mendonca, S., Grimes, J., Tsui, B.M.: 4d xcat phantom for multimodality imaging research. Medical physics 37(9), 4902–4915 (2010)
   - ISBI2023 challenge dataset: Anwaar Khalid, M., Zulfiqar, K., Bashir, U., Shaheen, A., Iqbal, R., Rizwan, Z., Rizwan, G., Moazam Fraz, M.: Cepha29: Automatic cephalometric landmark detection challenge 2023. arXiv e-prints pp. arXiv–2212 (2022)
   - Hand X-ray dataset: Payer, C., ˇStern, D., Bischof, H., Urschler, M.: Integrating spatial configuration into heatmap regression based CNNs for landmark localization. Medical Image Analysis 54, 207–219 (2019)
-  
+
+## Results
+<div align="center">
+  <img src="resources/Hybrid_Transformer_CNN.png", width=600/>
+</div>
+
 ## Prerequesites
 - Python 3.7
 - MMpose 0.23
 
 ## Usage
-
-- Input: .PNG images and JSON file
-- Output: 2D landmark coordinates
 
 - **Train**
   - To train our HTC model with a multiresolution learning approach, run the following command:
@@ -58,6 +60,9 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
       # For evaluation of ISBI2023 and Hand X-ray dataset, use:
       # --eval 'MRE_i2','MRE_std_i2','SDR_2_i2','SDR_2.5_i2','SDR_3_i2','SDR_4_i2'
   ```
+
+- Input: .PNG images and JSON file
+- Output: 2D landmark coordinates
 
 ## Citation 
 If you find this code useful for your research, please kindly cite our paper. The citation of our paper will be updated soon.
