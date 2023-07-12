@@ -39,6 +39,23 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 - MMpose 0.23
 
 ## Usage of the code
+- **Dataset format**
+  - The dataset structure should be in the following structure:
+
+  ```
+  inputs: .PNG images and JSON file
+  └── <dataset name>
+      ├── 2D_images
+      |   ├── 001.png
+      │   ├── 002.png
+      │   ├── 003.png
+      │   ├── ...
+      |
+      └── JSON
+          ├── train.json
+          └── test.json
+  ```
+  - Output: 2D landmark coordinates
 
 - **Train the model**
   - To train our HTC model with a multiresolution learning approach, run **sh train.sh**:
@@ -60,24 +77,8 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
       # --eval 'MRE_i2','MRE_std_i2','SDR_2_i2','SDR_2.5_i2','SDR_3_i2','SDR_4_i2'
   ```
 
-- **Dataset format**
-  - The dataset structure should be in the following structure:
+### Author
+Thanaporn Viriyasaranon, Serie Ma, and Jang-Hwan Choi
 
-  ```
-  inputs: .PNG images and JSON file
-  └── <dataset name>
-      ├── 2D_images
-      |   ├── 001.png
-      │   ├── 002.png
-      │   ├── 003.png
-      │   ├── ...
-      |
-      └── JSON
-          ├── train.json
-          └── test.json
-  ```
-
-  - Output: 2D landmark coordinates
-
-## Citation 
+### Citation 
 If you find this code useful for your research, please kindly cite our paper. The citation of our paper will be updated soon.
