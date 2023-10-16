@@ -112,7 +112,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
         },
         ...
  ]
-```
+ ```
     
   - Output: 2D landmark coordinates
 
