@@ -37,7 +37,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
 - MMpose 0.23
 
 ## Usage of the code
-- **Dataset format**
+- **Dataset preparation**
   - The dataset structure should be in the following structure:
 
   ```
@@ -55,8 +55,6 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
  ```
 
   - Example json format:
-
- ```
  {
     "images": [
         {
