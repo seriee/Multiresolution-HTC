@@ -54,7 +54,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
           └── test.json
  ```
 
-  - Example json format:
+**Example json format:**
  {
     "images": [
         {
