@@ -53,7 +53,9 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
           ├── train.json
           └── test.json
  ```
+
   - Example json format:
+
  ```
  {
     "images": [
