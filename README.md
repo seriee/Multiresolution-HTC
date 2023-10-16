@@ -54,23 +54,9 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
           └── test.json
  ```
 
-  ```
-  Inputs: .PNG images and JSON file
-  └── <dataset name>
-      ├── 2D_images
-      |   ├── 001.png
-      │   ├── 002.png
-      │   ├── 003.png
-      │   ├── ...
-      |
-      └── JSON
-          ├── train.json
-          └── test.json
- ```
-
   - Example json format:
 
-  ```
+ ```
  {
     "images": [
         {
@@ -126,7 +112,7 @@ Extensive experiments demonstrated that our approach outperforms state-of-the-ar
         },
         ...
  ]
- ```
+```
     
   - Output: 2D landmark coordinates
 
